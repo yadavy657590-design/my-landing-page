@@ -2,6 +2,7 @@
 <html>
 <head>
   <title>Fans Toss Load</title>
+
   <style>
     body {
       margin: 0;
@@ -15,7 +16,7 @@
       padding: 40px 20px;
     }
 
-    img.logo {
+    .logo {
       width: 120px;
       border-radius: 50%;
       box-shadow: 0 0 20px lime;
@@ -50,10 +51,17 @@
       margin-top: 30px;
     }
 
-    .proof img {
-      width: 90%;
+    .proof-images {
+      display: flex;
+      justify-content: center;
+      gap: 10px;
+      flex-wrap: wrap;
+    }
+
+    .proof-images img {
+      width: 45%;
+      max-width: 180px;
       border-radius: 10px;
-      margin-top: 10px;
     }
 
   </style>
@@ -84,13 +92,14 @@
 <p>✅ 8/8 Toss Pass ❤️</p>
 <p>✅ 100% Accuracy</p>
 
-<div style="display:flex; gap:10px; justify-content:center; flex-wrap:wrap;">
-
-  <img src="WhatsApp Image 2026-03-25 at 12.05.39 PM.jpeg">" style="width:45%; max-width:180px; border-radius:10px;">
-  
-  <img src="WhatsApp Image 2026-03-25 at 12.05.39 PM (1).jpeg">
-" style="width:45%; max-width:180px; border-radius:10px;">
-
+<div class="proof-images">
+  <img src="proof1.jpg">
+  <img src="proof2.jpg">
 </div>
 
 </div>
+
+</div>
+
+</body>
+</html>
